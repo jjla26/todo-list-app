@@ -43,8 +43,15 @@ ol li:nth-child(even) {
 
 li > crossOutButton {
     float: right;
+    color: #217e58;
+    font-weight: 800;
+    border: none;
 }
 
 .strike {
     text-decoration: line-through;
+}
+
+.delete {
+    display: none;
 }
