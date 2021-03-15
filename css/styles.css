@@ -28,3 +28,23 @@ input {
     cursor: pointer;
     opacity: .8;
 }
+
+li {
+    padding: 5px;
+}
+
+li:hover {
+    cursor: pointer
+}
+
+ol li:nth-child(even) {
+    background-color: #eee;
+}
+
+li > crossOutButton {
+    float: right;
+}
+
+.strike {
+    text-decoration: line-through;
+}
