@@ -30,5 +30,8 @@
     function deleteListItem(element){
         element.addClass('delete')
     }
+
+    // Function to make the list s
+    $('ol').sortable()
     
 })()
